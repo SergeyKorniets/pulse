@@ -297,4 +297,15 @@
             }
         }
     }
+    .modal {
+        width: 320px;
+        padding: 30px 7px 30px 7px;
+        &__close {
+            right: 3px;
+            top: 3px;
+        }
+        input {
+            width: 90%;
+        }
+    }
 }
