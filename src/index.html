@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>Pulse</title>
 </head>
@@ -54,7 +55,7 @@
                     <div class="advantages__advantage__descr">Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>   
                 </div>
                 <div class="advantages__advantage">
-                    <img src="icons/section_two_2.png" alt="2">
+                    <img src="icons/section_two_2.png" alt="2" class="advantages__icon advantages__icon_animated">
                     <div class="advantages__advantage__header">Заботимся о здоровье</div>
                     <div class="advantages__advantage__descr">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div>
                 </div>
@@ -611,7 +612,7 @@
     <section class="feed">
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
-            <div class="feed__item">
+            <div class="feed__item animate__fadeInUp animate__animated wow" data-wow-duration="2s" data-wow-delay="1s">
                 <img src="img/reviews/1.png" alt="Ирина Иванченко" class="feed__img">
                 <div class="feed__text">
                     <div class="feed__subtitle">Ирина Иванченко</div>
@@ -624,7 +625,7 @@
                         Спасибо, RunSmart!</div>
                 </div>
             </div>
-            <div class="feed__item">
+            <div class="feed__item animate__fadeInUp animate__animated wow" data-wow-duration="2s" data-wow-delay="1s">
                 <img src="img/reviews/2.png" alt="Иван Сёмочкин" class="feed__img">
                 <div class="feed__text">
                     <div class="feed__subtitle">Иван Сёмочкин</div>
@@ -635,7 +636,7 @@
                         С ними подготовился к своему первому полумарафону! Спасибо!!!</div>
                 </div>
             </div>
-            <div class="feed__item">
+            <div class="feed__item animate__fadeInUp animate__animated wow" data-wow-duration="2s" data-wow-delay="1s">
                 <img src="img/reviews/3.png" alt="Юлия Дашкина" class="feed__img">
                 <div class="feed__text">
                     <div class="feed__subtitle">Юлия Дашкина</div>
@@ -702,11 +703,12 @@
     </a>
 
 
-    <script type="text/javascript" src="js/jquery_script.js"></script>
-    <script type="text/javascript" src="js/jquery_migrate.js"></script>
+    <script src="js/jquery_script.js"></script>
+    <script src="js/jquery_migrate.js"></script>
     <script src="js/slick.min.js"></script>
     <script src='js/jquery.validate.min.js'></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
